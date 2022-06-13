@@ -1,0 +1,27 @@
+oke we willen dus bestuderen wat het effect is van de bouncing op de totale beweging
+
+fysica van de ballen:
+    -zijn enkel aangetrokken tot zwaartepunten, zwaartekracht is linear niet kwadratisch tov afstand
+    -botsen tegen elkaar op een bepaalde manier
+    -gewicht van een bal hangt af van de radius -> gewoon oppervlakte
+
+Een andere soort bounce zorgt wss voor een ander effect,
+    soorten bounce:
+        normaal: contactpunt als "muur" of "spiegel" waartegen de bal botst
+        afketsing: als ze langs dezelfde kant komen, normale afketsing
+                    als ze langs de andere kant komen, gelijk laten lopen met raaklijn
+        random hoek erbij: normale bounce, maar dan nog een extra beetje angle bij de botsing, gewoon voor de fun
+
+Het idee komt van een yt-video die ballen maakt, maar die afkaatsen, en op den duur raakt geen enkele bal meer
+    -> alle ballen zitten in dezelfde periode
+        -> bereiken door alle ballen op dezelfde afstand van het zwaartepunt te laten beginnen en met dezelfde snelheid
+
+experimenten:
+    -verschillende bounces
+    -meer zwaartepunten dan gewoon 1
+    -starten op verschillende hoogte of snelheid -> niet dezelfde periode
+
+meting van het resultaat:
+    visueel de beweging bekijken
+    heatmap maken van alle bounces -> zien we een patroon herhalen?
+    tijdsgrafiek maken van alle bounces -> zien we een patroon herhalen?
